@@ -44,7 +44,11 @@
                     cursor: pointer;
                     transform: scale(1.02);
                 }
-            
+            &.selected{
+                color:#00ff95;
+                border: 0px;
+                transform: none;
+            }
             }            
     }
     .svg{
