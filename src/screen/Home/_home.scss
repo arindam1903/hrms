@@ -1,0 +1,19 @@
+.home-container{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    .container-one{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+      height: 100%;
+        align-items: center;
+        
+    }
+    .container-two{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+    }
+}
