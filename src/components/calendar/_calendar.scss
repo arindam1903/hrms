@@ -1,4 +1,24 @@
 .calendarLayout{
     height:50%;
     width:100%;
+    .day-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        .days{
+        height: 40px;
+        width: 40px;
+        }
+    }
+    .date-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+        .dates{
+            height: 40px;
+            width: 40px;
+        }
+
+    }
 }
