@@ -21,7 +21,7 @@ return (
         <Route path='/calendar' component={Calendar}/>
         <Route path='/settings' component={Settings}/>
         <Route path='/reports' component={Reports}/>
-        <Route exact path='/' component={Home}/>
+        <Route exact path='/hrms' component={Home}/>
     </Switch>
 
     </Dashboard>
